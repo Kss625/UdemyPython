@@ -35,5 +35,5 @@ for i in range(len(my_tuple)):
     print(i, my_tuple[i])
 print()
 '''new way '''
-for index, value in enumerate(my_tuple, 1):  # by default 0
+for index, value in enumerate(my_tuple, 0):  # by default 0
     print(index, value)
