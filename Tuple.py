@@ -37,4 +37,4 @@ print()
 '''new way '''
 for index, value in enumerate(my_tuple):  # by default 0
     print(index, value)
-print(5+10)
+print(5+10)# just for checking
