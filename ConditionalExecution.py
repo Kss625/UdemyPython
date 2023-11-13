@@ -143,4 +143,5 @@ if extra_cheese == "Y":
 else:
     price = price + 0
 print("Your final bill is: " + "$" + str(price) + ".")
-#let's learn something
+print([10,20,30])
+
