@@ -33,3 +33,7 @@ for i in my_tuple:
 print()
 for i in range(len(my_tuple)):
     print(i, my_tuple[i])
+print()
+
+for index, value in enumerate(my_tuple, ):
+    print(index, value)
