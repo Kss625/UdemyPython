@@ -1,5 +1,6 @@
 print("Hello World")
 print("Finally I know Git ")
+print("Hurray")
 # quit() used to exit from terminal for python
 # three types of errors-syntax error,Logic Errors,RunTime Errors
 # Debugging - Correct The Bug From Programmes
