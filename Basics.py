@@ -70,4 +70,4 @@ print(len(name))  # len() function is used to find the length of string
 print(
     f"your name has {len(name)} Characters")  # new way to print all things in a single or double quote with the help of f-strings
 
-print(len("web2karn"))
+print(len("web2karn@123"))
