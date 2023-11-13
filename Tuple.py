@@ -59,4 +59,4 @@ def even_index_items(p_tuple):
 
 my_tuple = ("a", "b", "c", "d", "e", "f", "g")
 print(even_index_items(my_tuple))
-# ok fine but very confusing
+# ok fine but very confusing now understand it
