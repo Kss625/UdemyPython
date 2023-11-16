@@ -11,7 +11,7 @@
 # window.config(background="black")
 # window.mainloop()# place window on computer screen , listen for events
 
-'''GO FURTHER NOW-Labels'''
+'''GO FURTHER Now-Labels'''
 # from tkinter import *
 # #label=an area that area holds text and/or an image within a window
 # window=Tk()

@@ -46,17 +46,54 @@ Implement a function which takes as a parameter a tuple and return a new tuple b
 Hint : Use enumerate() function
 '''
 
+# def even_index_items(p_tuple):
+#     # TODO
+#     new_tuple = tuple()
+#     for index, value in enumerate(p_tuple):
+#         if index % 2 == 0:
+#             new_tuple = new_tuple + tuple(p_tuple[index])
+#
+#     return new_tuple
+#
+#
+# my_tuple = ("a", "b", "c", "d", "e", "f", "g")
+# print(even_index_items(my_tuple))
 
-def even_index_items(p_tuple):
-    # TODO
-    new_tuple = tuple()
-    for index, value in enumerate(p_tuple):
-        if index % 2 == 0:
-            new_tuple = new_tuple + tuple(p_tuple[index])
 
-    return new_tuple
+'''Searching Elements in Tuple'''
+# My_Tuple = (1,2,3,4,5,6,7,8)
+#
+# def search_elements(p_tuple,p_items):
+#     for index,value in enumerate(p_tuple):
+#         if value==p_items:
+#             return index
+#     return "Item Does Not Exist"
+# item=int(input("Enter Item To Search In Tuple: "))
+# print(search_elements(My_Tuple,)
 
+'''Tuple Operations'''
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
 
-my_tuple = ("a", "b", "c", "d", "e", "f", "g")
-print(even_index_items(my_tuple))
-# ok fine
+result1 = t1 + t2  # Addition Operators
+print(result1)
+result2 = t1 * 3  # multiplication operators
+print(result2)
+print(1 in t1)  # logical operators
+print(t1[0:3])
+print(t1[-3:])
+test = (1, 4, 3, 0, 3, 5, 7, 1, 1, 1)
+print(test.count(1))
+print(test.index(5))
+print(max(test), min(test))
+
+list = ["skarn", "Coders", "Sushant"]
+list_tuple = tuple(list)
+print(list_tuple, type(list_tuple))
+
+'''nested tuples'''
+fruit = [("mango", "Apple", "banana", "strawberry"), ("Delhi", "Mumbai", "kolkatta", "Mumbai")]
+
+for inf in fruit:
+    # print(f"Fruit : {inf[0]},Ciyt : {inf[1]},")
+    print("Fruit : {} City :  {}".format(inf[0], inf[1]))  # format string
