@@ -80,9 +80,10 @@ print(result1)
 result2 = t1 * 3  # multiplication operators
 print(result2)
 print(1 in t1)  # logical operators
-print(t1[0:3])
+print(t1[0:3])  # slicing in python
 print(t1[-3:])
 test = (1, 4, 3, 0, 3, 5, 7, 1, 1, 1)
+''' Some tuple Functions'''
 print(test.count(1))
 print(test.index(5))
 print(max(test), min(test))
@@ -91,9 +92,29 @@ list = ["skarn", "Coders", "Sushant"]
 list_tuple = tuple(list)
 print(list_tuple, type(list_tuple))
 
+
+def most_frequent(p_tuple):
+    max_count = 0
+    item = p_tuple[0]
+    for value in p_tuple:
+        current_item_count = p_tuple.count(value)
+        if current_item_count > max_count:
+            max_count = current_item_count + max_count
+            item = value
+    return (item, max_count)
+
+
+my_tuple = ("a", "b", "c", "d", "e", "a", "b", "b", "c")
+print(most_frequent(my_tuple))
+
+
+
+
 '''nested tuples'''
 fruit = [("mango", "Apple", "banana", "strawberry"), ("Delhi", "Mumbai", "kolkatta", "Mumbai")]
 
 for inf in fruit:
-    # print(f"Fruit : {inf[0]},Ciyt : {inf[1]},")
+    # print(f"Fruit : {inf[0]},City : {inf[1]},")
     print("Fruit : {} City :  {}".format(inf[0], inf[1]))  # format string
+
+print("1+2={} and 4+5={}".format(3, 5))

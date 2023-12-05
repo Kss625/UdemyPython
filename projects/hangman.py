@@ -1,6 +1,6 @@
 import random
 
-word_list = ["UDEMY", "APPMILLERS", "PYTHON"]
+word_list = ["UDEMY", "APPMILLERS", "FACEBOOK"]
 secret_word = random.choice(word_list)
 blanks = []
 for _ in range(len(secret_word)):
